@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "687064016193",
+    "project_id": "customcharts-fa078",
+    "storage_bucket": "customcharts-fa078.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687064016193:android:9c6e61a3de33776b20edc0",
+        "android_client_info": {
+          "package_name": "com.example.customcharts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "687064016193-trelo0uegvs10oiin48ceoau4vdrdbl7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKY2vneF3DRB8TfHmRIkjYLrNBd4kl-rk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "687064016193-trelo0uegvs10oiin48ceoau4vdrdbl7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
