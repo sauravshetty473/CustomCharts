@@ -1,9 +1,9 @@
-import 'package:customcharts/homeRelated/default_border_bool.dart';
-import 'package:customcharts/homeRelated/modal_bottom_cell.dart';
+import '../shared/default_border_bool.dart';
+import 'mb_edit_grid.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 
-import '../homeRelated/modal_bottom.dart';
+import 'mb_edit_rowCols.dart';
 
 // ignore: must_be_immutable
 class Block extends StatefulWidget {

@@ -4,8 +4,10 @@ class BorderBool {
   bool left;
   bool bottom;
   BorderBool(
-      {this.top = false,
-      this.right = true,
-      this.left = false,
-      this.bottom = true});
+      {
+        this.top = false,
+        this.left = false,
+        this.right = true,
+        this.bottom = true
+     });
 }

@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:customcharts/homeRelated/total_avg_switch.dart';
-import 'package:customcharts/shared/blocks.dart';
-import 'default_border_bool.dart';
+import 'total_avg_switch.dart';
+import 'blocks.dart';
+import '../shared/default_border_bool.dart';
 import 'package:customcharts/shared/row_col_types.dart';
 import 'package:flutter/material.dart';
 

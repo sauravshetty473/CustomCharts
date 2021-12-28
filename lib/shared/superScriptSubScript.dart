@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 var supSub = RichText(
   text: TextSpan(
     style: TextStyle(color: Colors.red, fontSize: 16),
@@ -21,7 +20,7 @@ var supSub = RichText(
         child: Transform.translate(
           offset: const Offset(0.0, -7.0),
           child: Text(
-            'supscripts',
+            'supScripts',
             style: TextStyle(fontSize: 11),
           ),
         ),

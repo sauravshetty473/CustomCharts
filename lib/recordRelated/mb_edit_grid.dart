@@ -1,4 +1,3 @@
-import 'package:customcharts/shared/row_col_types.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -39,7 +38,7 @@ class _ModalBottomBlockState extends State<ModalBottomBlock> {
           child: TextFormField(
             inputFormatters: widget.isNum
                 ? [
-                    WhitelistingTextInputFormatter(RegExp(r'^\d+\.?\d{0,2}')),
+                    FilteringTextInputFormatter(RegExp(r'^\d+\.?\d{0,2}'), allow: true),
                   ]
                 : [],
             keyboardType: widget.isNum

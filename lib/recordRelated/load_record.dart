@@ -1,5 +1,4 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:customcharts/services/database_related.dart';
 import 'record.dart';
 import 'package:flutter/material.dart';
 

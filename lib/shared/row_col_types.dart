@@ -1,19 +1,12 @@
 import 'package:flutter/material.dart';
 
-
-enum RowType{
-  custom,
-  number
-}
-
-
-
 // ignore: must_be_immutable
 class ColumnInput extends StatelessWidget {
   String title;
   InputType inputType;
 
-  ColumnInput({@required this.title, @required this.inputType = InputType.string});
+  ColumnInput(
+      {@required this.title, this.inputType = InputType.string});
 
   @override
   Widget build(BuildContext context) {
@@ -21,9 +14,12 @@ class ColumnInput extends StatelessWidget {
   }
 }
 
-
-enum InputType{
+enum InputType {
   number,
   string,
 }
 
+enum RowType {
+  custom,
+  number
+}
