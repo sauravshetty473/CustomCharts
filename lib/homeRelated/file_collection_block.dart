@@ -4,16 +4,18 @@ import 'package:flutter/material.dart';
 
 
 
+// ignore: must_be_immutable
 class FileCollectionBlock extends StatelessWidget {
   String title;
   String date;
   Function function;
   bool isFile;
+  Color color;
 
 
 
 
-  FileCollectionBlock({@required this.title,@required this.date,@required this.function, @required this.isFile});
+  FileCollectionBlock({@required this.title,@required this.date,@required this.function, @required this.isFile, this.color});
 
 
 
@@ -50,7 +52,7 @@ class FileCollectionBlock extends StatelessWidget {
                     AspectRatio(
                         aspectRatio: 1,
                       child: Container(
-                        color: [Colors.blue.withAlpha(255), Colors.purple.withAlpha(255),Colors.red.withAlpha(255),Colors.deepPurple.withAlpha(255)][Random().nextInt(4)],
+                        color: this.color??Colors.blue,
                         child: Icon(this.isFile?Icons.upload_file: Icons.folder_open, color: Colors.white,),
                       ),
                     ),
